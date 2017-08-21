@@ -1,34 +1,32 @@
-src/*.exe
-src/ulatech
-src/ulatechd
-src/test_ulatech
-.*.swp
-*.*~*
-*.bak
-*.rej
-*.orig
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
 *.o
-*.patch
-.ulatech
+*.obj
 
-# Compilation and Qt preprocessor part
-*.qm
-Makefile
-ulatech-qt
-UlaTech-Qt.app
+# Precompiled Headers
+*.gch
+*.pch
 
-# Unit-tests
-Makefile.test
-ulatech-qt_test
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
 
-# Resources cpp
-qrc_*.cpp
+# Fortran module files
+*.mod
+*.smod
 
-# Qt creator
-*.pro.user
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
 
-# Mac specific
-.DS_Store
-build
-
-!src/leveldb*/Makefile
+# Executables
+*.exe
+*.out
+*.app
